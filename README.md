@@ -1,0 +1,1 @@
+This repository demonstrates a subtle but common error in R: the silent dropping of non-existent columns when subsetting data frames using character vectors.  The `bug.r` file contains code that reproduces the error.  The `bugSolution.r` file provides a solution using error handling to make the issue more apparent and prevent unintended behavior.
